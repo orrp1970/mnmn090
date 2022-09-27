@@ -1,0 +1,12 @@
+# In this example, any change inside the `/scripts` directory
+# will require approval from @doctocat or @octocat.
+#/scripts/ @doctocat @octocat
+/apis/poi/ @sudhikul
+
+/apis/trips/ @madhavichetan2121
+
+/apis/user-java/ @kshitijmali
+
+/apis/userprofile/ @gghdeveloper01
+
+/iac/ @vpaithankar @mekal2002
