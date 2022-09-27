@@ -1,12 +1,12 @@
 # In this example, any change inside the `/scripts` directory
 # will require approval from @doctocat or @octocat.
 #/scripts/ @doctocat @octocat
-/apis/poi/ @sudhikul
+/apis/poi/ @rahuls3388
 
-/apis/trips/ @madhavichetan2121
+/apis/trips/ @sivadvvsrk
 
-/apis/user-java/ @kshitijmali
+/apis/user-java/ @rahuls3388
 
-/apis/userprofile/ @gghdeveloper01
+/apis/userprofile/ @sivadvvsrk
 
-/iac/ @vpaithankar @mekal2002
+/iac/ @vpaithankar @sivadvvsrk
