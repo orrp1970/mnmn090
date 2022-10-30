@@ -1,23 +1,19 @@
 
-name: Build and deploy a container to an Azure Web App
-
-env:
-  AZURE_WEBAPP_NAME: your-app-name  # set this to the name of your Azure Web App
-
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
 
-permissions:
-  contents: read
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+- name: Azure Login
+  uses: Azure/login@v1.4.6
+  with:
+    # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
+    creds: # optional
+    # ClientId of the Azure Service principal created.
+    client-id: # optional
+    # TenantId of the Azure Service principal created.
+    tenant-id: # optional
+    # Azure subscriptionId
+    subscription-id: # optional
+    
